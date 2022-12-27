@@ -1,5 +1,5 @@
 import numpy as np
-import math
+
 
 task1 = np.arange(1000000)
 task2 = np.random.randint(1,10,1000000)
@@ -16,5 +16,5 @@ print("Задание 3:\nМедиана случайных 1000000 чисел\n
 
 print()
 
-print("Задание 4:\nПроизведение случайных 1000000 чисел\nОтвет: ", np.prod(task2, dtype=object))
+print("Задание 4:\nПроизведение случайных 1000000 чисел\nОтвет: ", np.prod(task2))
 
